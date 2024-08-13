@@ -6,7 +6,7 @@ import halfCircleAccIcon from '../../assets/icons/halfCircleAccIcon.png';
 import whiteCircle from '../../assets/icons/whiteCircle.png';
 import grayLine from '../../assets/icons/grayLineMoneyRange.png';
 import redLine from '../../assets/icons/redLineMoneyRange.png';
-import longRedLine from '../../assets/icons/longRedLineMoneyRange.svg';
+import shortRedLine from '../../assets/icons/shortRedLineMoneyRange.svg';
 
 export const AccountsCard = () => {
     const isDarkMode = useThemeStore(state => state.isDarkMode);
@@ -53,7 +53,7 @@ export const AccountsCard = () => {
                         </div>
                         <div className={style.moneyRange}>
                             <img className={style.grayLine} alt="grayLine" src={grayLine} />
-                            <img className={style.redLine} alt="redLine" src={longRedLine} />
+                            <img className={style.redLine} alt="redLine" src={shortRedLine} />
                             <img className={style.whiteCircleMoneyRangeLong} alt="whiteCircle" src={whiteCircle} />
                         </div>
                     </div>
