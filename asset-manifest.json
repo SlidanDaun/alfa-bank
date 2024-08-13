@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "./static/css/main.25ef9ab0.css",
-    "main.js": "./static/js/main.961f6e1f.js",
+    "main.js": "./static/js/main.137ac0f0.js",
     "static/media/styrenealc-black.otf": "./static/media/styrenealc-black.194e56b9818894e70642.otf",
     "static/media/styrenealc-regular.otf": "./static/media/styrenealc-regular.07f3b6d4567ff41e5634.otf",
+    "static/media/gameImg.png": "./static/media/gameImg.576e23040e7c2e4be1d2.png",
+    "static/media/plane.png": "./static/media/plane.6680bbd131fcb69b84d6.png",
     "static/media/arrow.svg": "./static/media/arrow.5a60332c66d8d867f61a1aa80645e35c.svg",
     "static/media/whiteArrow.svg": "./static/media/whiteArrow.36005b7d9934ad0bb0472744e3edce1f.svg",
     "index.html": "./index.html",
+    "static/media/longRedLineMoneyRange.svg": "./static/media/longRedLineMoneyRange.832d5247965d08336e8110767c888fd3.svg",
+    "static/media/polygonGame2.svg": "./static/media/polygonGame2.0f04da225d28b793482135204f2517dc.svg",
+    "static/media/polygonGame3.svg": "./static/media/polygonGame3.42c648931cd3cb19729226ac29624eac.svg",
+    "static/media/polygonGame.svg": "./static/media/polygonGame.f68d45996aaab8016ff2ea614fabb99b.svg",
     "main.25ef9ab0.css.map": "./static/css/main.25ef9ab0.css.map",
-    "main.961f6e1f.js.map": "./static/js/main.961f6e1f.js.map"
+    "main.137ac0f0.js.map": "./static/js/main.137ac0f0.js.map"
   },
   "entrypoints": [
     "static/css/main.25ef9ab0.css",
-    "static/js/main.961f6e1f.js"
+    "static/js/main.137ac0f0.js"
   ]
 }
