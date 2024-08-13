@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "StyreneALCRegular";
+  src: url("../../assets/fonts/styrenealc-regular.otf");
+}
+
+@font-face {
+  font-family: "StyreneALCBlack";
+  src: url("../../assets/fonts/styrenealc-black.otf");
+}
+
+.card {
+  background: linear-gradient(to right, #b0bcfe, #c1c3ec);
+  width: 675px;
+  min-width: 250px;
+  border-radius: 15px; 
+  padding: 15px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  font-family: 'StyreneALCRegular';
+  font-size: 22px;
+}
+
+.card h1 {
+  font-weight: 600;
+  font-size: 44px;
+  margin: 2px 0;
+  color: black;
+  font-family: 'StyreneALCBlack';
+}
+
+.name {
+  background: linear-gradient(
+    to right,
+    #000000,
+    #ef3124
+  ); /* Градиентный фон для текста */
+  -webkit-background-clip: text; /* Для Safari и Chrome */
+  -webkit-text-fill-color: transparent; /* Для Safari и Chrome */
+  background-clip: text; /* Для Firefox */
+  color: transparent; /* Для Firefox */
+}
+
+.card p {
+  font-weight: normal;
+  color: black;
+  margin: 0;
+  max-width: 535px;
+}

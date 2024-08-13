@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "StyreneALCRegular";
+  src: url("../../assets/fonts/styrenealc-regular.otf");
+}
+
+@font-face {
+  font-family: "StyreneALCBlack";
+  src: url("../../assets/fonts/styrenealc-black.otf");
+}
+
+.header {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+.headerDark {
+  background-color: #000000;
+  padding: 10px 0;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.headerBrand {
+  font-family: "StyreneALCBlack";
+  font-size: 26px;
+  font-weight: bold;
+  color: #e30613; /* Красный цвет для логотипа */
+}
+
+.headerNav {
+  font-family: "StyreneALCRegular";
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  gap: 20px;
+}
+
+.headerNavLink {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.headerNavLinkDark {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+.headerNavLink:hover {
+  text-decoration: underline;
+}
