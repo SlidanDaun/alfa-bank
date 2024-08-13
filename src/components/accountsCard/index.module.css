@@ -15,7 +15,21 @@
   padding: 10px 20px;
 }
 
+.cardDark {
+  background-color: #232323;
+  max-width: 550px;
+  border-radius: 40px;
+  padding: 10px 20px;
+}
+
 .card h1 {
+  color: red;
+  font-family: "StyreneALCBlack";
+  margin: 4px 0;
+  margin-bottom: 20px;
+}
+
+.cardDark h1 {
   color: red;
   font-family: "StyreneALCBlack";
   margin: 4px 0;
@@ -31,6 +45,10 @@
   font-family: "StyreneALCRegular";
 }
 
+.textAccContainerDark {
+  font-family: "StyreneALCRegular";
+}
+
 .accountsContainer {
   display: flex;
   flex-direction: column;
@@ -41,6 +59,13 @@
   margin: 4px 0;
   font-weight: 600;
   font-size: 22px;
+}
+
+.textAccContainerDark h4 {
+  margin: 4px 0;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
 }
 
 .accIconContainer {
@@ -103,8 +128,24 @@
   font-family: "StyreneALCBlack";
 }
 
+.percentageDark {
+  position: absolute;
+  top: 55px;
+  left: 55px;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  font-family: "StyreneALCBlack";
+}
+
 .textAccContainer p {
   margin: 4px 0;
+}
+
+.textAccContainerDark p {
+  margin: 4px 0;
+  color: white;
 }
 
 .accParams {
@@ -116,6 +157,14 @@
   justify-content: space-between;
   font-family: "StyreneALCBlack";
   width: 380px;
+}
+
+.moneyValuesDark {
+  display: flex;
+  justify-content: space-between;
+  font-family: "StyreneALCBlack";
+  width: 380px;
+  color: white;
 }
 
 .moneyRange {

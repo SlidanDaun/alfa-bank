@@ -1,4 +1,6 @@
 import style from "./index.module.css";
+import useThemeStore from '../themeStore';
+
 import circleAccIcon from '../../assets/icons/circleAccIcon.png';
 import halfCircleAccIcon from '../../assets/icons/halfCircleAccIcon.png';
 import whiteCircle from '../../assets/icons/whiteCircle.png';
@@ -7,8 +9,9 @@ import redLine from '../../assets/icons/redLineMoneyRange.png';
 import longRedLine from '../../assets/icons/longRedLineMoneyRange.svg';
 
 export const AccountsCard = () => {
+    const isDarkMode = useThemeStore(state => state.isDarkMode);
     return (
-        <div className={style.card}>
+        <div className={ isDarkMode ? style.cardDark : style.card}>
             <h1>cовместные счета</h1>
             <div className={style.accountsContainer}>
                 <div className={style.account}>
@@ -16,13 +19,13 @@ export const AccountsCard = () => {
                         <img className={style.purpleCircle} alt="purpleCircle" src={circleAccIcon} />
                         <img className={style.redSimeCircle} alt="redCircle" src={halfCircleAccIcon} />
                         <img className={style.whiteCircle} alt="whiteCircle" src={whiteCircle} />
-                        <div className={style.percentage}>49%</div>
+                        <div className={ isDarkMode ? style.percentageDark : style.percentage}>49%</div>
                     </div>
-                    <div className={style.textAccContainer}>
+                    <div className={ isDarkMode ? style.textAccContainerDark : style.textAccContainer}>
                         <h4>На сочи с девочками</h4>
                         <p><span className={style.accParams}>копят:</span> Маша, Ритка, Аня</p>
                         <p><span className={style.accParams}>описание:</span> Девочки, там море и Егор Крид!!!</p>
-                        <div className={style.moneyValues}>
+                        <div className={isDarkMode ? style.moneyValuesDark : style.moneyValues}>
                             <div>35 280</div>
                             <div>72 000</div>
                         </div>
@@ -38,13 +41,13 @@ export const AccountsCard = () => {
                         <img className={style.purpleCircle} alt="purpleCircle" src={circleAccIcon} />
                         <img className={style.redSimeCircle} alt="redCircle" src={halfCircleAccIcon} />
                         <img className={style.whiteCircle} alt="whiteCircle" src={whiteCircle} />
-                        <div className={style.percentage}>27%</div>
+                        <div className={ isDarkMode ? style.percentageDark : style.percentage}>27%</div>
                     </div>
-                    <div className={style.textAccContainer}>
+                    <div className={ isDarkMode ? style.textAccContainerDark : style.textAccContainer}>
                         <h4>На мечту</h4>
                         <p><span className={style.accParams}>копят:</span> Маша, Илья</p>
                         <p><span className={style.accParams}>описание:</span> У нас всё получится</p>
-                        <div className={style.moneyValues}>
+                        <div className={isDarkMode ? style.moneyValuesDark : style.moneyValues}>
                             <div>32 400</div>
                             <div>120 000</div>
                         </div>
