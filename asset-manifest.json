@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/alfa-bank/static/css/main.5a1278dd.css",
-    "main.js": "/alfa-bank/static/js/main.d0d7b278.js",
-    "static/js/453.829e4d0a.chunk.js": "/alfa-bank/static/js/453.829e4d0a.chunk.js",
-    "static/media/styrenealc-black.otf": "/alfa-bank/static/media/styrenealc-black.194e56b9818894e70642.otf",
-    "static/media/styrenealc-regular.otf": "/alfa-bank/static/media/styrenealc-regular.07f3b6d4567ff41e5634.otf",
-    "index.html": "/alfa-bank/index.html",
-    "main.5a1278dd.css.map": "/alfa-bank/static/css/main.5a1278dd.css.map",
-    "main.d0d7b278.js.map": "/alfa-bank/static/js/main.d0d7b278.js.map",
-    "453.829e4d0a.chunk.js.map": "/alfa-bank/static/js/453.829e4d0a.chunk.js.map"
+    "main.css": "./static/css/main.25ef9ab0.css",
+    "main.js": "./static/js/main.72f00705.js",
+    "static/media/styrenealc-black.otf": "./static/media/styrenealc-black.194e56b9818894e70642.otf",
+    "static/media/styrenealc-regular.otf": "./static/media/styrenealc-regular.07f3b6d4567ff41e5634.otf",
+    "index.html": "./index.html",
+    "main.25ef9ab0.css.map": "./static/css/main.25ef9ab0.css.map",
+    "main.72f00705.js.map": "./static/js/main.72f00705.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a1278dd.css",
-    "static/js/main.d0d7b278.js"
+    "static/css/main.25ef9ab0.css",
+    "static/js/main.72f00705.js"
   ]
 }
