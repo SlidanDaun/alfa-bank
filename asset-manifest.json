@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.caa590f7.css",
+    "main.js": "/static/js/main.ec38cc58.js",
+    "static/js/453.829e4d0a.chunk.js": "/static/js/453.829e4d0a.chunk.js",
+    "static/media/styrenealc-black.otf": "/static/media/styrenealc-black.194e56b9818894e70642.otf",
+    "static/media/styrenealc-regular.otf": "/static/media/styrenealc-regular.07f3b6d4567ff41e5634.otf",
+    "index.html": "/index.html",
+    "main.caa590f7.css.map": "/static/css/main.caa590f7.css.map",
+    "main.ec38cc58.js.map": "/static/js/main.ec38cc58.js.map",
+    "453.829e4d0a.chunk.js.map": "/static/js/453.829e4d0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caa590f7.css",
+    "static/js/main.ec38cc58.js"
+  ]
+}
