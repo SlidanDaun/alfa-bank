@@ -1,14 +1,23 @@
 import style from "./index.module.css";
 import useThemeStore from '../themeStore';
 
+import plane from '../../assets/img/plane.png';
+import cloud from '../../assets/img/cloud.png';
+import smallCloud from '../../assets/img/smallCloud.png';
+
+import planeIcon from '../../assets/icons/planeIcon.png';
+import trainIcon from '../../assets/icons/trainIcon.png'; 
+import webIcon from '../../assets/icons/webIcon.png';
+import arrow from '../../assets/icons/arrow.svg';
+
 export const TravelCard = () => {
   const isDarkMode = useThemeStore(state => state.isDarkMode);
   return (
     <div className={ isDarkMode ? style.cardDark : style.card}>
       <div className={style.imgContainer}>
-        <img src="/img/plane.png" alt="Самолет" className={style.plane} />
-        <img src="/img/cloud.png" alt="Облако" className={style.cloud} />
-        <img src="/img/cloud.png" alt="Облако" className={style.smallCloud} />
+        <img src={plane} alt="Самолет" className={style.plane} />
+        <img src={cloud} alt="Облако" className={style.cloud} />
+        <img src={smallCloud} alt="Облако" className={style.smallCloud} />
       </div>
       <div className={style.textContainer}>
         <h1>Билет на учёбу</h1>
@@ -19,13 +28,13 @@ export const TravelCard = () => {
         </p>
         <div className={style.tagsContiner}>
           <div className={style.tag} id={style.tag1}>
-            <img src="/icons/planeIcon.png" alt="whiteCircle" /> <p> Кэшбек 7% на авиа </p>
+            <img src={planeIcon} alt="whiteCircle" /> <p> Кэшбек 7% на авиа </p>
           </div>
           <div className={style.tag} id={style.tag2}>
-            <img src="/icons/trainIcon.png" alt="whiteCircle" /> <p> Кэшбек 5% на ж/д</p>
+            <img src={trainIcon} alt="whiteCircle" /> <p> Кэшбек 5% на ж/д</p>
           </div>
           <div className={style.tag} id={style.tag3}>
-            <p> Больше приятного </p> <img src="/icons/webIcon.png" alt="whiteCircle" /> <img className={style.arrowIcon} alt="whiteCircle" src="/icons/arrow.svg" />
+            <p> Больше приятного </p> <img src={webIcon} alt="whiteCircle" /> <img className={style.arrowIcon} alt="whiteCircle" src={arrow} />
           </div>
         </div>
       </div>

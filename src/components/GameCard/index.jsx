@@ -2,6 +2,10 @@ import style from "./index.module.css";
 import useThemeStore from '../themeStore';
 import whiteArrow from '../../assets/icons/whiteArrow.svg';
 import arrow from '../../assets/icons/arrow.svg';
+import gameImg from '../../assets/img/gameImg.png';
+import polygonGame from '../../assets/icons/polygonGame.svg'
+import polygonGame2 from '../../assets/icons/polygonGame2.svg'
+import polygonGame3 from '../../assets/icons/polygonGame3.svg'
 
 
 export const GameCard = () => {
@@ -21,15 +25,15 @@ export const GameCard = () => {
       </div>
       <div className={style.imgContainer}>
         <img
-          src={`/img/gameImg.png`}
+          src={gameImg}
           alt="game Img"
           className={style.gameImg}
         />
         <div className={style.overlayText}>
           Сыграть
-          <img src={`/icons/polygonGame.svg`} alt="whiteCircle" className={style.polygon}></img>
-          <img src={`/icons/polygonGame2.svg`} alt="whiteCircle" className={style.polygon}></img>
-          <img src={`/icons/polygonGame3.svg`} alt="whiteCircle" className={style.polygon}></img>
+          <img src={polygonGame} alt="poly1" className={style.polygon}></img>
+          <img src={polygonGame2} alt="poly2" className={style.polygon}></img>
+          <img src={polygonGame3} alt="poly3" className={style.polygon}></img>
         </div>
       </div>
     </div>
