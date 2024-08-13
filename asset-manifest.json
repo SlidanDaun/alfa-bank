@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.25ef9ab0.css",
-    "main.js": "./static/js/main.72f00705.js",
+    "main.js": "./static/js/main.961f6e1f.js",
     "static/media/styrenealc-black.otf": "./static/media/styrenealc-black.194e56b9818894e70642.otf",
     "static/media/styrenealc-regular.otf": "./static/media/styrenealc-regular.07f3b6d4567ff41e5634.otf",
+    "static/media/arrow.svg": "./static/media/arrow.5a60332c66d8d867f61a1aa80645e35c.svg",
+    "static/media/whiteArrow.svg": "./static/media/whiteArrow.36005b7d9934ad0bb0472744e3edce1f.svg",
     "index.html": "./index.html",
     "main.25ef9ab0.css.map": "./static/css/main.25ef9ab0.css.map",
-    "main.72f00705.js.map": "./static/js/main.72f00705.js.map"
+    "main.961f6e1f.js.map": "./static/js/main.961f6e1f.js.map"
   },
   "entrypoints": [
     "static/css/main.25ef9ab0.css",
-    "static/js/main.72f00705.js"
+    "static/js/main.961f6e1f.js"
   ]
 }
