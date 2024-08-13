@@ -1,5 +1,7 @@
 import style from "./index.module.css";
 import useThemeStore from '../themeStore';
+import whiteArrow from '../../assets/icons/whiteArrow.svg';
+import arrow from '../../assets/icons/arrow.svg';
 
 
 export const GameCard = () => {
@@ -12,7 +14,7 @@ export const GameCard = () => {
           <h1>Alfa-catch</h1>
         </div>
         <img
-          src={ isDarkMode ? `/icons/whiteArrow.svg` : `/icons/arrow.svg`}
+          src={ isDarkMode ? whiteArrow : arrow}
           alt="Arrow Icon"
           className="icon"
         />
@@ -23,7 +25,7 @@ export const GameCard = () => {
           alt="game Img"
           className={style.gameImg}
         />
-        <div class={style.overlayText}>
+        <div className={style.overlayText}>
           Сыграть
           <img src={`/icons/polygonGame.svg`} alt="whiteCircle" className={style.polygon}></img>
           <img src={`/icons/polygonGame2.svg`} alt="whiteCircle" className={style.polygon}></img>
