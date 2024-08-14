@@ -1,0 +1,25 @@
+.carouselContainer {
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.slickSlide {
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+.slickCenter .slick-slide {
+  transform: scale(1);
+  z-index: 2;
+}
+
+.carouselItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselItem img {
+  width: 40px;
+}

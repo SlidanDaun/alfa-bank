@@ -23,34 +23,64 @@ import e from "../../assets/logos/e.svg";
 import ymarket from "../../assets/logos/ymarket.svg";
 import magnit from "../../assets/logos/magnit.svg";
 
-import karpo from '../../assets/logos/karpo.svg';
-import flo from '../../assets/logos/flo.svg'
-import leo from '../../assets/logos/leo.svg'
-import black from '../../assets/logos/black.svg'
-import o from '../../assets/logos/o.svg'
-import gorod from '../../assets/logos/gorod.svg'
-import qvoe from '../../assets/logos/qvoe.svg'
-import publica from '../../assets/logos/public.svg'
-import factory from '../../assets/logos/factoty.svg'
-
+import karpo from "../../assets/logos/karpo.svg";
+import flo from "../../assets/logos/flo.svg";
+import leo from "../../assets/logos/leo.svg";
+import black from "../../assets/logos/black.svg";
+import o from "../../assets/logos/o.svg";
+import gorod from "../../assets/logos/gorod.svg";
+import qvoe from "../../assets/logos/qvoe.svg";
+import publica from "../../assets/logos/public.svg";
+import factory from "../../assets/logos/factoty.svg";
+import { Carousel } from "../Сarousel";
 
 export const StockCard = () => {
-  const shoppingLogos = [lamoda, ozon, republic, apple, befree, wb, e, ymarket, magnit];
+  const shoppingLogos = [
+    lamoda,
+    ozon,
+    republic,
+    apple,
+    befree,
+    wb,
+    e,
+    ymarket,
+    magnit,
+  ];
   const foodLogos = [live, rostics, bk, samokat, mc, dodo, vkus, surf, potato];
   const eduLogos = [karpo, flo, leo, black, o, gorod, qvoe, publica, factory];
   const funLogos = [];
 
   const shoppingClick = () => {
-    window.open('https://google.com', '_blank');
-  }
+    window.open("https://google.com", "_blank");
+  };
 
   const [activeTab, setActiveTab] = useState("Еда");
   const tabs = ["Шоппинг", "Образование", "Еда", "Развлечения"];
   const content = {
-    Шоппинг: <div className={style.showAll} onClick={shoppingClick}> Посмотреть все </div>,
-    Образование: <div className={style.showAll} onClick={shoppingClick}> Посмотреть все </div>,
-    Еда: <div className={style.showAll} onClick={shoppingClick}> Посмотреть все </div>,
-    Развлечения: <div className={style.showAll} onClick={shoppingClick}> Посмотреть все </div>,
+    Шоппинг: (
+      <div className={style.showAll} onClick={shoppingClick}>
+        {" "}
+        Посмотреть все{" "}
+      </div>
+    ),
+    Образование: (
+      <div className={style.showAll} onClick={shoppingClick}>
+        {" "}
+        Посмотреть все{" "}
+      </div>
+    ),
+    Еда: (
+      <div className={style.showAll} onClick={shoppingClick}>
+        {" "}
+        Посмотреть все{" "}
+      </div>
+    ),
+    Развлечения: (
+      <div className={style.showAll} onClick={shoppingClick}>
+        {" "}
+        Посмотреть все{" "}
+      </div>
+    ),
   };
 
   const categoriesLogos = {
@@ -58,21 +88,30 @@ export const StockCard = () => {
     Образование: eduLogos,
     Еда: foodLogos,
     Развлечения: funLogos,
-  }
+  };
 
-  // const foodLogos = {
-  //   one: live,
-  //   two: rostics,
-  //   three: bk,
-  //   four: samokat,
-  //   five: mc,
-  //   six: dodo,
-  //   seven: vkus,
-  //   eight: surf,
-  //   nine: potato,
-  // }
-
-
+  const settings = {
+    centerMode: true,
+    centerPadding: "0px",
+    slidesToShow: 5,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
 
   return (
     <div className={style.card}>
@@ -90,12 +129,11 @@ export const StockCard = () => {
         </div>
         <div className="tabsContent">
           {content[activeTab]}
-          <SliderComponent logos={categoriesLogos[activeTab]} />
+          {/* <SliderComponent logos={categoriesLogos[activeTab]} /> */}
+          <Carousel logos={categoriesLogos[activeTab]} />
         </div>
       </div>
-      <div className="news">
-
-      </div>
+      <div className="news"></div>
     </div>
   );
 };
