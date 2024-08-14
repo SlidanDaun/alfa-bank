@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "StyreneALCRegular";
+  src: url("../../assets/fonts/styrenealc-regular.otf");
+}
+
+@font-face {
+  font-family: "StyreneALCBlack";
+  src: url("../../assets/fonts/styrenealc-black.otf");
+}
+
+.card {
+  /* border: 1px solid red; */
+}
+
+.card h1 {
+  font-family: "StyreneALCRegular";
+  margin: 0;
+  margin-top: 14px;
+  color: black;
+  font-size: 28px;
+}
+
+.categories {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showAll {
+  margin-top: 4px;
+  margin-left: 150px;
+  font-family: 'StyreneALCRegular';
+}
+

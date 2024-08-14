@@ -10,3 +10,8 @@
     display: flex;
     gap: 10px;
 }
+
+.secondCardLine {
+    display: flex;
+    gap: 10px;
+}

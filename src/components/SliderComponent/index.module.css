@@ -1,0 +1,75 @@
+.logoCarousel {
+  position: relative;
+  width: 100%;
+}
+
+.logoCarousel img {
+}
+
+.live {
+  width: 38px;
+  position: absolute;
+  left: 0px;
+  top: 55px;
+}
+
+.rostics {
+  width: 50px;
+  position: absolute;
+  left: 17px;
+  top: 48px;
+}
+
+.bk {
+  width: 62px;
+  position: absolute;
+  left: 40px;
+  top: 42px;
+}
+
+.samokat {
+  width: 72px;
+  position: absolute;
+  left: 73px;
+  top: 35px;
+}
+
+.mc {
+  width: 80px;
+  position: absolute;
+  left: 105px;
+  top: 28px;
+  z-index: 4;
+}
+
+.dodo {
+  width: 72px;
+  position: absolute;
+  left: 148px;
+  top: 35px;
+  z-index: 3;
+}
+
+.vkus {
+  width: 62px;
+  position: absolute;
+  top: 42px;
+  left: 190px;
+  z-index: 2;
+}
+
+.surf {
+  width: 50px;
+  position: absolute;
+  top: 48px;
+  left: 225px;
+  z-index: 1;
+}
+
+.potato {
+  width: 38px;
+  position: absolute;
+  left: 253px;
+  top: 55px;
+  z-index: 0;
+}

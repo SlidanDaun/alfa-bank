@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "StyreneALCRegular";
+  src: url("../../assets/fonts/styrenealc-regular.otf");
+}
+
+@font-face {
+  font-family: "StyreneALCBlack";
+  src: url("../../assets/fonts/styrenealc-black.otf");
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 10px;
+  margin-bottom: 10px;
+  border: 2px solid #dfe0e5;
+  border-radius: 16px;
+  cursor: pointer;
+  min-width: 140px;
+  max-height: 20px;
+  transition: background-color 0.3s;
+}
+
+.tab.active {
+  background-color: #dfe0e5;
+}
+
+.label {
+  font-family: 'StyreneALCRegular';
+  font-size: 16px;
+}

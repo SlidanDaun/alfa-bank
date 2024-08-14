@@ -4,6 +4,7 @@ import { GameCard } from "../../components/GameCard";
 import style from "./index.module.css";
 import { TravelCard } from "../../components/TravelCard";
 import { AccountsCard } from "../../components/accountsCard";
+import { StockCard } from "../../components/stocksCard";
 
 export const MainPage = () => {
     return <div className={style.pageContainer}>
@@ -12,7 +13,10 @@ export const MainPage = () => {
             <HelloCard />
             <GameCard />
         </div>
-        <AccountsCard />
+        <div className={style.secondCardLine}>
+            <AccountsCard />
+            <StockCard />
+        </div>
         <TravelCard />
     </div>
 }

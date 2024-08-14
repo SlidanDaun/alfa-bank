@@ -13,6 +13,7 @@
   max-width: 550px;
   border-radius: 40px;
   padding: 10px 20px;
+  padding-bottom: 40px;
 }
 
 .cardDark {
@@ -20,6 +21,7 @@
   max-width: 550px;
   border-radius: 40px;
   padding: 10px 20px;
+  padding-bottom: 40px;
 }
 
 .card h1 {
