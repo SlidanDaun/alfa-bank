@@ -2,24 +2,35 @@
   max-width: 200px;
   margin: 0 auto;
   padding: 40px 0;
+  overflow: hidden;
 }
 
-.slickSlide {
+.slick-slide {
   transform: scale(0.8);
   transition: transform 0.3s ease;
 }
 
-.slickCenter .slick-slide {
-  transform: scale(1);
+.slick-center {
+  transform: scale(1.2); /* Увеличенный элемент */
   z-index: 2;
 }
 
 .carouselItem {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .carouselItem img {
-  width: 40px;
+  width: 60px;
+}
+
+.carouselItem {
+  transition: transform 0.3s ease;
+}
+
+.carouselItem.enlarged {
+  transform: scale(1.2);
 }

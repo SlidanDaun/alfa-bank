@@ -59,26 +59,22 @@ export const StockCard = () => {
   const content = {
     Шоппинг: (
       <div className={style.showAll} onClick={shoppingClick}>
-        {" "}
-        Посмотреть все{" "}
+        Посмотреть все
       </div>
     ),
     Образование: (
       <div className={style.showAll} onClick={shoppingClick}>
-        {" "}
-        Посмотреть все{" "}
+        Посмотреть все
       </div>
     ),
     Еда: (
       <div className={style.showAll} onClick={shoppingClick}>
-        {" "}
-        Посмотреть все{" "}
+        Посмотреть все
       </div>
     ),
     Развлечения: (
       <div className={style.showAll} onClick={shoppingClick}>
-        {" "}
-        Посмотреть все{" "}
+        Посмотреть все
       </div>
     ),
   };
@@ -97,20 +93,6 @@ export const StockCard = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     focusOnSelect: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
   };
 
   return (
