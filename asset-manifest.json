@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.b88360ee.css",
-    "main.js": "./static/js/main.af5cc283.js",
+    "main.css": "./static/css/main.20e768bf.css",
+    "main.js": "./static/js/main.d87c609f.js",
     "static/media/wb.svg": "./static/media/wb.f5a559cf5ecf9cf8186d5c497bcd7681.svg",
     "static/media/potato.svg": "./static/media/potato.42dceb76321f7d80b8f2dab0f7c2b571.svg",
     "static/media/rostics.svg": "./static/media/rostics.764a8d40e9147d1c2211aec0476d9a96.svg",
@@ -45,11 +45,11 @@
     "static/media/polygonGame2.svg": "./static/media/polygonGame2.0f04da225d28b793482135204f2517dc.svg",
     "static/media/polygonGame3.svg": "./static/media/polygonGame3.42c648931cd3cb19729226ac29624eac.svg",
     "static/media/polygonGame.svg": "./static/media/polygonGame.f68d45996aaab8016ff2ea614fabb99b.svg",
-    "main.b88360ee.css.map": "./static/css/main.b88360ee.css.map",
-    "main.af5cc283.js.map": "./static/js/main.af5cc283.js.map"
+    "main.20e768bf.css.map": "./static/css/main.20e768bf.css.map",
+    "main.d87c609f.js.map": "./static/js/main.d87c609f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b88360ee.css",
-    "static/js/main.af5cc283.js"
+    "static/css/main.20e768bf.css",
+    "static/js/main.d87c609f.js"
   ]
 }
