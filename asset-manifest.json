@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.7669cb70.css",
-    "main.js": "./static/js/main.c1c14c03.js",
+    "main.css": "./static/css/main.1143ab19.css",
+    "main.js": "./static/js/main.f859aad0.js",
     "static/media/storiesPreview2Bag.svg": "./static/media/storiesPreview2Bag.75abeb45177191cb7958e061eea387c5.svg",
     "static/media/wb.svg": "./static/media/wb.f5a559cf5ecf9cf8186d5c497bcd7681.svg",
     "static/media/storiesPreview2PurpleLine.svg": "./static/media/storiesPreview2PurpleLine.ef955d90218763ff02ebb0c5eba32f5c.svg",
@@ -56,11 +56,11 @@
     "static/media/polygonGame2.svg": "./static/media/polygonGame2.0f04da225d28b793482135204f2517dc.svg",
     "static/media/polygonGame3.svg": "./static/media/polygonGame3.42c648931cd3cb19729226ac29624eac.svg",
     "static/media/polygonGame.svg": "./static/media/polygonGame.f68d45996aaab8016ff2ea614fabb99b.svg",
-    "main.7669cb70.css.map": "./static/css/main.7669cb70.css.map",
-    "main.c1c14c03.js.map": "./static/js/main.c1c14c03.js.map"
+    "main.1143ab19.css.map": "./static/css/main.1143ab19.css.map",
+    "main.f859aad0.js.map": "./static/js/main.f859aad0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7669cb70.css",
-    "static/js/main.c1c14c03.js"
+    "static/css/main.1143ab19.css",
+    "static/js/main.f859aad0.js"
   ]
 }
