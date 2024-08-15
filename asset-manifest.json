@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.1143ab19.css",
-    "main.js": "./static/js/main.f859aad0.js",
+    "main.css": "./static/css/main.86e6c6c7.css",
+    "main.js": "./static/js/main.36a96765.js",
+    "static/media/WeekendStorie1.png": "./static/media/WeekendStorie1.d655430b5db2605913ef.png",
     "static/media/storiesPreview2Bag.svg": "./static/media/storiesPreview2Bag.75abeb45177191cb7958e061eea387c5.svg",
     "static/media/wb.svg": "./static/media/wb.f5a559cf5ecf9cf8186d5c497bcd7681.svg",
+    "static/media/WeekendStorie2.png": "./static/media/WeekendStorie2.c9e71f9457b294119643.png",
+    "static/media/ShoppingStorie3.png": "./static/media/ShoppingStorie3.aca8ec63d67987dd6676.png",
+    "static/media/WeekendStorie3.png": "./static/media/WeekendStorie3.1e2669b9d804325e0689.png",
+    "static/media/AmStorie1.png": "./static/media/AmStorie1.af128735f14a197762db.png",
     "static/media/storiesPreview2PurpleLine.svg": "./static/media/storiesPreview2PurpleLine.ef955d90218763ff02ebb0c5eba32f5c.svg",
     "static/media/flower.svg": "./static/media/flower.7f86ecf2e40fdf4b8713eb62a1656bba.svg",
+    "static/media/ShoppingStorie2.png": "./static/media/ShoppingStorie2.0f60778a8175b264813b.png",
     "static/media/potato.svg": "./static/media/potato.42dceb76321f7d80b8f2dab0f7c2b571.svg",
+    "static/media/ShoppingStorie1.png": "./static/media/ShoppingStorie1.d520b3f5ac08bdfe22d4.png",
     "static/media/rostics.svg": "./static/media/rostics.764a8d40e9147d1c2211aec0476d9a96.svg",
     "static/media/styrenealc-black.otf": "./static/media/styrenealc-black.194e56b9818894e70642.otf",
     "static/media/styrenealc-regular.otf": "./static/media/styrenealc-regular.07f3b6d4567ff41e5634.otf",
+    "static/media/AmStorie2.png": "./static/media/AmStorie2.cc9859e04607621e1fc4.png",
     "static/media/mc.svg": "./static/media/mc.34027f9f4fdb432e5d74dc09849958c0.svg",
     "static/media/live.svg": "./static/media/live.de88e0e78c2071bc1cd13e9009b95969.svg",
     "static/media/leo.svg": "./static/media/leo.e98cdcbf3e66e08f3e6c28b623adc190.svg",
@@ -24,6 +32,7 @@
     "static/media/dodo.svg": "./static/media/dodo.4e2b76a25bb0fcd59476cda2f02c5cc2.svg",
     "static/media/maza.svg": "./static/media/maza.d5a9c50eedb05f4c8229e79e45570001.svg",
     "static/media/storiesPreview3.png": "./static/media/storiesPreview3.3c20b2d97c000be18e55.png",
+    "static/media/AmStorie3.png": "./static/media/AmStorie3.398f111a311418b20adb.png",
     "static/media/vkus.svg": "./static/media/vkus.38a5a188e74729997bc82ef86b1c447b.svg",
     "static/media/storiesPreview1.png": "./static/media/storiesPreview1.0613997993963302f1c8.png",
     "static/media/e.svg": "./static/media/e.f87c9d00c37136a38617530e0c62bb38.svg",
@@ -56,11 +65,11 @@
     "static/media/polygonGame2.svg": "./static/media/polygonGame2.0f04da225d28b793482135204f2517dc.svg",
     "static/media/polygonGame3.svg": "./static/media/polygonGame3.42c648931cd3cb19729226ac29624eac.svg",
     "static/media/polygonGame.svg": "./static/media/polygonGame.f68d45996aaab8016ff2ea614fabb99b.svg",
-    "main.1143ab19.css.map": "./static/css/main.1143ab19.css.map",
-    "main.f859aad0.js.map": "./static/js/main.f859aad0.js.map"
+    "main.86e6c6c7.css.map": "./static/css/main.86e6c6c7.css.map",
+    "main.36a96765.js.map": "./static/js/main.36a96765.js.map"
   },
   "entrypoints": [
-    "static/css/main.1143ab19.css",
-    "static/js/main.f859aad0.js"
+    "static/css/main.86e6c6c7.css",
+    "static/js/main.36a96765.js"
   ]
 }
