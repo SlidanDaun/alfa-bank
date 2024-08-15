@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.20e768bf.css",
-    "main.js": "./static/js/main.d87c609f.js",
+    "main.css": "./static/css/main.7669cb70.css",
+    "main.js": "./static/js/main.c1c14c03.js",
+    "static/media/storiesPreview2Bag.svg": "./static/media/storiesPreview2Bag.75abeb45177191cb7958e061eea387c5.svg",
     "static/media/wb.svg": "./static/media/wb.f5a559cf5ecf9cf8186d5c497bcd7681.svg",
+    "static/media/storiesPreview2PurpleLine.svg": "./static/media/storiesPreview2PurpleLine.ef955d90218763ff02ebb0c5eba32f5c.svg",
+    "static/media/flower.svg": "./static/media/flower.7f86ecf2e40fdf4b8713eb62a1656bba.svg",
     "static/media/potato.svg": "./static/media/potato.42dceb76321f7d80b8f2dab0f7c2b571.svg",
     "static/media/rostics.svg": "./static/media/rostics.764a8d40e9147d1c2211aec0476d9a96.svg",
     "static/media/styrenealc-black.otf": "./static/media/styrenealc-black.194e56b9818894e70642.otf",
@@ -14,15 +17,22 @@
     "static/media/factoty.svg": "./static/media/factoty.395fdd54c19933a6e3fb42a9d321d3ab.svg",
     "static/media/magnit.svg": "./static/media/magnit.d8691fe6cc9ad4c103805290f7cff3e4.svg",
     "static/media/gameImg.png": "./static/media/gameImg.576e23040e7c2e4be1d2.png",
+    "static/media/yAfisha.svg": "./static/media/yAfisha.3b772d57ec78906f1e96d278d7564e5e.svg",
+    "static/media/wink.svg": "./static/media/wink.8d38df3ac57e054a3501b3b81abf850b.svg",
     "static/media/karpo.svg": "./static/media/karpo.187df342f25524bd0b11ec2887f48bb3.svg",
     "static/media/public.svg": "./static/media/public.7a4111fe8b252fde05ecd297d7ec61b9.svg",
     "static/media/dodo.svg": "./static/media/dodo.4e2b76a25bb0fcd59476cda2f02c5cc2.svg",
+    "static/media/maza.svg": "./static/media/maza.d5a9c50eedb05f4c8229e79e45570001.svg",
+    "static/media/storiesPreview3.png": "./static/media/storiesPreview3.3c20b2d97c000be18e55.png",
     "static/media/vkus.svg": "./static/media/vkus.38a5a188e74729997bc82ef86b1c447b.svg",
+    "static/media/storiesPreview1.png": "./static/media/storiesPreview1.0613997993963302f1c8.png",
     "static/media/e.svg": "./static/media/e.f87c9d00c37136a38617530e0c62bb38.svg",
     "static/media/surf.svg": "./static/media/surf.5c2c49acbdb7f86ecaf35a86e18508ba.svg",
+    "static/media/samokat.svg": "./static/media/samokat.9b91e917198f5d736081201a52631a46.svg",
     "static/media/bk.svg": "./static/media/bk.ed1f69cd84bda3f5f37e7e92c4435784.svg",
     "static/media/ozon.svg": "./static/media/ozon.ee8bfd1c9bf7f3bc88638e5ef49d01df.svg",
-    "static/media/samokat.svg": "./static/media/samokat.5a6c5ade70bf8baa0f3d6822cbe2a9e5.svg",
+    "static/media/kapo.svg": "./static/media/kapo.0b744ff60e4cedd12159c0d5217ff279.svg",
+    "static/media/afisha.svg": "./static/media/afisha.da54ce573538baccae9be44355e0a3ba.svg",
     "static/media/plane.png": "./static/media/plane.6680bbd131fcb69b84d6.png",
     "static/media/lamoda.svg": "./static/media/lamoda.6a486232b30c96605344117f21cbbe75.svg",
     "static/media/gorod.svg": "./static/media/gorod.5ce591acfffad59dfff33dc27ee74030.svg",
@@ -30,6 +40,7 @@
     "static/media/apple.svg": "./static/media/apple.168ffb494b2da579bb6b3633860c6366.svg",
     "static/media/o.svg": "./static/media/o.4531dfd37218f2ab928b94203c977f0b.svg",
     "static/media/qvoe.svg": "./static/media/qvoe.2a34ab3879187949c59bf599caab65fe.svg",
+    "static/media/purple.svg": "./static/media/purple.869ed5b491e70245ebe18a125d1645ac.svg",
     "static/media/flo.svg": "./static/media/flo.08f79a7d2511811d3d0bfc4e966e50ab.svg",
     "static/media/republic.svg": "./static/media/republic.7eaf0f963ffdaf3eb3c2f7566dbbcfb6.svg",
     "static/media/black.svg": "./static/media/black.fabb3fa8f0d5bd0e06aa8bab0d3173a3.svg",
@@ -45,11 +56,11 @@
     "static/media/polygonGame2.svg": "./static/media/polygonGame2.0f04da225d28b793482135204f2517dc.svg",
     "static/media/polygonGame3.svg": "./static/media/polygonGame3.42c648931cd3cb19729226ac29624eac.svg",
     "static/media/polygonGame.svg": "./static/media/polygonGame.f68d45996aaab8016ff2ea614fabb99b.svg",
-    "main.20e768bf.css.map": "./static/css/main.20e768bf.css.map",
-    "main.d87c609f.js.map": "./static/js/main.d87c609f.js.map"
+    "main.7669cb70.css.map": "./static/css/main.7669cb70.css.map",
+    "main.c1c14c03.js.map": "./static/js/main.c1c14c03.js.map"
   },
   "entrypoints": [
-    "static/css/main.20e768bf.css",
-    "static/js/main.d87c609f.js"
+    "static/css/main.7669cb70.css",
+    "static/js/main.c1c14c03.js"
   ]
 }
