@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "./static/css/main.86e6c6c7.css",
-    "main.js": "./static/js/main.ccdf31c6.js",
+    "main.css": "./static/css/main.c936c628.css",
+    "main.js": "./static/js/main.4abd06e1.js",
+    "static/media/bro.svg": "./static/media/bro.4401c12e077f599dcc6237f69f7bcbf6.svg",
+    "static/media/you.svg": "./static/media/you.56562936f54bd7eb8dc4897ce341b617.svg",
     "static/media/WeekendStorie1.png": "./static/media/WeekendStorie1.d655430b5db2605913ef.png",
     "static/media/storiesPreview2Bag.svg": "./static/media/storiesPreview2Bag.75abeb45177191cb7958e061eea387c5.svg",
     "static/media/wb.svg": "./static/media/wb.f5a559cf5ecf9cf8186d5c497bcd7681.svg",
@@ -38,6 +40,7 @@
     "static/media/e.svg": "./static/media/e.f87c9d00c37136a38617530e0c62bb38.svg",
     "static/media/surf.svg": "./static/media/surf.5c2c49acbdb7f86ecaf35a86e18508ba.svg",
     "static/media/samokat.svg": "./static/media/samokat.9b91e917198f5d736081201a52631a46.svg",
+    "static/media/fullAccountCard.svg": "./static/media/fullAccountCard.1462ae43904ba159cdc280f75bcbaa1c.svg",
     "static/media/bk.svg": "./static/media/bk.ed1f69cd84bda3f5f37e7e92c4435784.svg",
     "static/media/ozon.svg": "./static/media/ozon.ee8bfd1c9bf7f3bc88638e5ef49d01df.svg",
     "static/media/kapo.svg": "./static/media/kapo.0b744ff60e4cedd12159c0d5217ff279.svg",
@@ -57,19 +60,19 @@
     "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "./index.html",
     "static/media/arrow.svg": "./static/media/arrow.5a60332c66d8d867f61a1aa80645e35c.svg",
     "static/media/whiteArrow.svg": "./static/media/whiteArrow.36005b7d9934ad0bb0472744e3edce1f.svg",
     "static/media/redArrowIcon.svg": "./static/media/redArrowIcon.c7cadad5467a5865507ebc4a98b8807a.svg",
-    "index.html": "./index.html",
     "static/media/shortRedLineMoneyRange.svg": "./static/media/shortRedLineMoneyRange.7740e8eb6765550c050e43d55e9b280e.svg",
     "static/media/polygonGame2.svg": "./static/media/polygonGame2.0f04da225d28b793482135204f2517dc.svg",
     "static/media/polygonGame3.svg": "./static/media/polygonGame3.42c648931cd3cb19729226ac29624eac.svg",
     "static/media/polygonGame.svg": "./static/media/polygonGame.f68d45996aaab8016ff2ea614fabb99b.svg",
-    "main.86e6c6c7.css.map": "./static/css/main.86e6c6c7.css.map",
-    "main.ccdf31c6.js.map": "./static/js/main.ccdf31c6.js.map"
+    "main.c936c628.css.map": "./static/css/main.c936c628.css.map",
+    "main.4abd06e1.js.map": "./static/js/main.4abd06e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.86e6c6c7.css",
-    "static/js/main.ccdf31c6.js"
+    "static/css/main.c936c628.css",
+    "static/js/main.4abd06e1.js"
   ]
 }
