@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "./static/css/main.f3cf5a1e.css",
-    "main.js": "./static/js/main.3cd5caf3.js",
+    "main.css": "./static/css/main.146b7cac.css",
+    "main.js": "./static/js/main.2e9e490e.js",
     "static/media/bro.svg": "./static/media/bro.4401c12e077f599dcc6237f69f7bcbf6.svg",
+    "static/media/GamePage.svg": "./static/media/GamePage.2776fec849664379a43119d397e26cb6.svg",
     "static/media/you.svg": "./static/media/you.56562936f54bd7eb8dc4897ce341b617.svg",
     "static/media/WeekendStorie1.png": "./static/media/WeekendStorie1.d655430b5db2605913ef.png",
     "static/media/storiesPreview2Bag.svg": "./static/media/storiesPreview2Bag.75abeb45177191cb7958e061eea387c5.svg",
@@ -69,11 +70,11 @@
     "static/media/polygonGame2.svg": "./static/media/polygonGame2.0f04da225d28b793482135204f2517dc.svg",
     "static/media/polygonGame3.svg": "./static/media/polygonGame3.42c648931cd3cb19729226ac29624eac.svg",
     "static/media/polygonGame.svg": "./static/media/polygonGame.f68d45996aaab8016ff2ea614fabb99b.svg",
-    "main.f3cf5a1e.css.map": "./static/css/main.f3cf5a1e.css.map",
-    "main.3cd5caf3.js.map": "./static/js/main.3cd5caf3.js.map"
+    "main.146b7cac.css.map": "./static/css/main.146b7cac.css.map",
+    "main.2e9e490e.js.map": "./static/js/main.2e9e490e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3cf5a1e.css",
-    "static/js/main.3cd5caf3.js"
+    "static/css/main.146b7cac.css",
+    "static/js/main.2e9e490e.js"
   ]
 }
