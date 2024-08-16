@@ -10,11 +10,10 @@ export const Carousel = ({ logos }) => {
   const settings = {
     centerMode: true,
     centerPadding: "0px",
-    slidesToShow: 5.2,
+    slidesToShow: 5,
     autoplay: true,
     autoplaySpeed: 2000,
     focusOnSelect: true,
-    dots: true,
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,6 +26,10 @@ export const Carousel = ({ logos }) => {
     return currentIndex;
   };
 
+  const logoHandler = (url) => {
+    window.open(url, "_blank");
+  };
+
   const middleIndex = getMiddleIndex();
 
   return (
@@ -35,11 +38,12 @@ export const Carousel = ({ logos }) => {
         {logos.map((logo, index) => (
           <div
             key={index}
+            onClick={() => logoHandler(logo.url)}
             className={`${style.carouselItem} ${
-              index === middleIndex ? style.enlarged : "" 
+              index === middleIndex ? style.enlarged : ""
             }`}
           >
-            <img src={logo} alt={`Logo ${index}`} />
+            <img src={logo.src}  alt={`Logo ${index}`} />
           </div>
         ))}
       </Slider>

@@ -26,7 +26,75 @@
   background-color: #dfe0e5;
 }
 
+.tabDark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 10px;
+  margin-bottom: 10px;
+  border: 2px solid #dfe0e5;
+  border-radius: 16px;
+  cursor: pointer;
+  min-width: 140px;
+  max-height: 20px;
+  background-color: black;
+}
+
+.tabDark.active {
+  background-color: #dfe0e5;
+  color: black;
+}
+
 .label {
-  font-family: 'StyreneALCRegular';
+  font-family: "StyreneALCRegular";
   font-size: 16px;
+}
+
+.labelDark {
+  font-family: "StyreneALCRegular";
+  font-size: 16px;
+  color: white;
+}
+
+.labelDark.active {
+  font-family: "StyreneALCRegular";
+  font-size: 16px;
+  color: black;
+}
+
+@media (max-width: 555px) {
+  .label {
+    font-family: "StyreneALCRegular";
+    font-size: 10px;
+  }
+  .labelDark {
+    font-family: "StyreneALCRegular";
+    font-size: 10px;
+  }
+  .tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    border: 2px solid #dfe0e5;
+    border-radius: 16px;
+    cursor: pointer;
+    min-width: 0px;
+    max-height: 20px;
+    transition: background-color 0.3s;
+  }
+  .tabDark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    border: 2px solid #dfe0e5;
+    border-radius: 16px;
+    cursor: pointer;
+    min-width: 0px;
+    max-height: 20px;
+    transition: background-color 0.3s;
+  }
 }

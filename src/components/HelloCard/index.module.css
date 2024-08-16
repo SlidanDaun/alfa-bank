@@ -12,12 +12,24 @@
   background: linear-gradient(to right, #b0bcfe, #c1c3ec);
   width: 675px;
   min-width: 250px;
-  border-radius: 15px; 
-  padding: 15px; 
+  border-radius: 30px;
+  padding: 15px;
   padding-left: 30px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  font-family: 'StyreneALCRegular';
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "StyreneALCRegular";
   font-size: 22px;
+}
+
+@media (max-width: 1023px) {
+  .card {
+    background: linear-gradient(to right, #b0bcfe, #c1c3ec);
+    width: auto;
+    border-radius: 30px;
+    padding-left: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "StyreneALCRegular";
+    font-size: 22px;
+  }
 }
 
 .card h1 {
@@ -25,7 +37,7 @@
   font-size: 44px;
   margin: 2px 0;
   color: black;
-  font-family: 'StyreneALCBlack';
+  font-family: "StyreneALCBlack";
 }
 
 .name {

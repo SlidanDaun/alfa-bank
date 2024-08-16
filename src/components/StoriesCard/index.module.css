@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "StyreneALCRegular";
+  src: url("../../assets/fonts/styrenealc-regular.otf");
+}
+
+@font-face {
+  font-family: "StyreneALCBlack";
+  src: url("../../assets/fonts/styrenealc-black.otf");
+}
+
+.stories h1 {
+  font-family: "StyreneALCRegular";
+  margin-top: 2px;
+  font-size: 24px;
+  padding-bottom: 4px;
+}
+
+.storiesDark h1 {
+  font-family: "StyreneALCRegular";
+  margin-top: 2px;
+  font-size: 24px;
+  padding-bottom: 4px;
+  color: white;
+}
+
+.storiesContainer {
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 1023px) {
+  .storiesContainer {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+  }
+  .storiesButton {
+    position: relative;
+    margin: 0 auto;
+  }
+  .stories h1 {
+    width: 168px;
+    margin: 0 auto;
+  }
+  .storiesDark h1 {
+    width: 168px;
+    margin: 0 auto;
+  } 
+}
+
+
+.storiesButton {
+  position: relative;
+  width: 140px;
+  height: 128.47px;
+}
+
+
+.storiesButton1 {
+  position: relative;
+  width: 140px;
+  height: 128.47px;
+}
+
+.storiesButton img {
+  width: 140px;
+}
+
+
+.background {
+  width: 140px;
+}
+
+.bag {
+  width: 100px;
+  position: absolute;
+  z-index: 4;
+  left: 25px;
+  bottom: 35px;
+}
+
+.purpleLine {
+  width: 130px;
+  position: absolute;
+  z-index: 3;
+  right: 10px;
+  bottom: 22px;
+}
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 21px; /* Скругление углов */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  pointer-events: none;
+}
+
+.storiesButton1 p {
+  position: absolute;
+  font-family: "StyreneALCRegular";
+  font-size: 12px;
+  bottom: 0px;
+  left: 10px;
+}
+
+.storiesButton p {
+  position: absolute;
+  font-family: "StyreneALCRegular";
+  font-size: 12px;
+  width: 135px;
+  color: white;
+  bottom: 0px;
+  left: 10px;
+  z-index: 2;
+}
+
+.storie {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 50%;
+}
+
+@media (max-width: 472px) {
+  .storiesButton img {
+    width: 90px;
+  }
+  .storiesButton {
+    position: relative;
+    width: 90px;
+    height: 82.65px;
+    margin: 0 auto;
+  }
+  .stories h1 {
+    width: 154px;
+    margin: 0 auto;
+  }
+  .storiesButton p {
+    position: absolute;
+    font-family: "StyreneALCRegular";
+    font-size: 10px;
+    width: 90px;
+    color: white;
+    bottom: 0px;
+    left: 5px;
+    z-index: 2;
+  }
+  .overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px; /* Скругление углов */
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+    pointer-events: none;
+  }
+
+  .background {
+    width: 90px;
+  }
+
+  .storiesButton1 {
+    position: relative;
+    width: 90px;
+    height: 82.65px;
+  }
+
+  .bag {
+    width: 60px;
+    position: absolute;
+    z-index: 4;
+    left: 20px;
+    bottom: 25px;
+  }
+  
+  .purpleLine {
+    width: 70px;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    bottom: 18px;
+  }
+
+  .storiesButton1 p {
+    position: absolute;
+    font-family: "StyreneALCRegular";
+    font-size: 8px;
+    bottom: 0px;
+    left: 10px;
+  }
+  
+}

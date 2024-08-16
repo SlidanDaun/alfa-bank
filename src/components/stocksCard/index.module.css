@@ -8,15 +8,19 @@
   src: url("../../assets/fonts/styrenealc-black.otf");
 }
 
-.card {
-  /* border: 1px solid red; */
-}
-
 .card h1 {
   font-family: "StyreneALCRegular";
   margin: 0;
   margin-top: 14px;
   color: black;
+  font-size: 28px;
+}
+
+.cardDark h1 {
+  font-family: "StyreneALCRegular";
+  margin: 0;
+  margin-top: 14px;
+  color: white;
   font-size: 28px;
 }
 
@@ -29,6 +33,40 @@
 .showAll {
   margin-top: 4px;
   margin-left: 150px;
-  font-family: 'StyreneALCRegular';
+  font-family: "StyreneALCRegular";
 }
 
+@media (max-width: 1023px) {
+  .card h1 {
+    font-family: "StyreneALCRegular";
+    margin: 14px auto;
+    color: black;
+    font-size: 28px;
+    width: 290px;
+  }
+  .cardDark h1 {
+    font-family: "StyreneALCRegular";
+    margin: 14px auto;
+    color: white;
+    font-size: 28px;
+    width: 290px;
+  }
+  .categories {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 555px) {
+  .categories {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .tabsContainer {
+    display: flex;
+    gap: 2px;
+    margin: 0 auto;
+  }
+}

@@ -105,3 +105,25 @@
   width: 10px;
   height: 10px;
 }
+
+@media (max-width: 1023px) {
+  .card {
+    width: 330px;
+    margin: 0 auto;
+  }
+  .cardDark {
+    width: 330px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 555px) {
+  .card {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .cardDark {
+    width: 200px;
+    margin: 0 auto;
+  }
+}

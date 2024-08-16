@@ -1,0 +1,22 @@
+.container {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  top: 10px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center; /* Центрирует дочерние элементы по горизонтали */
+  align-items: center; /* Центрирует дочерние элементы по вертикали */
+  height: 100vh; /* Задает высоту контейнера на весь экран */
+}
+
+.overlay {
+  position: fixed; /* Фиксация на экране */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Полная ширина экрана */
+  height: 100vh; /* Полная высота экрана */
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный чёрный цвет */
+  backdrop-filter: blur(10px); /* Размытие заднего фона */
+  z-index: 1000; /* Устанавливаем высокий z-index для overlay */
+}
