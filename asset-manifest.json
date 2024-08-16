@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.c936c628.css",
-    "main.js": "./static/js/main.4abd06e1.js",
+    "main.css": "./static/css/main.f3cf5a1e.css",
+    "main.js": "./static/js/main.9ec6d853.js",
     "static/media/bro.svg": "./static/media/bro.4401c12e077f599dcc6237f69f7bcbf6.svg",
     "static/media/you.svg": "./static/media/you.56562936f54bd7eb8dc4897ce341b617.svg",
     "static/media/WeekendStorie1.png": "./static/media/WeekendStorie1.d655430b5db2605913ef.png",
@@ -41,6 +41,7 @@
     "static/media/surf.svg": "./static/media/surf.5c2c49acbdb7f86ecaf35a86e18508ba.svg",
     "static/media/samokat.svg": "./static/media/samokat.9b91e917198f5d736081201a52631a46.svg",
     "static/media/fullAccountCard.svg": "./static/media/fullAccountCard.1462ae43904ba159cdc280f75bcbaa1c.svg",
+    "static/media/fullAccountCardDark.svg": "./static/media/fullAccountCardDark.4d9afc15d4b8b57de61860e8411ea102.svg",
     "static/media/bk.svg": "./static/media/bk.ed1f69cd84bda3f5f37e7e92c4435784.svg",
     "static/media/ozon.svg": "./static/media/ozon.ee8bfd1c9bf7f3bc88638e5ef49d01df.svg",
     "static/media/kapo.svg": "./static/media/kapo.0b744ff60e4cedd12159c0d5217ff279.svg",
@@ -68,11 +69,11 @@
     "static/media/polygonGame2.svg": "./static/media/polygonGame2.0f04da225d28b793482135204f2517dc.svg",
     "static/media/polygonGame3.svg": "./static/media/polygonGame3.42c648931cd3cb19729226ac29624eac.svg",
     "static/media/polygonGame.svg": "./static/media/polygonGame.f68d45996aaab8016ff2ea614fabb99b.svg",
-    "main.c936c628.css.map": "./static/css/main.c936c628.css.map",
-    "main.4abd06e1.js.map": "./static/js/main.4abd06e1.js.map"
+    "main.f3cf5a1e.css.map": "./static/css/main.f3cf5a1e.css.map",
+    "main.9ec6d853.js.map": "./static/js/main.9ec6d853.js.map"
   },
   "entrypoints": [
-    "static/css/main.c936c628.css",
-    "static/js/main.4abd06e1.js"
+    "static/css/main.f3cf5a1e.css",
+    "static/js/main.9ec6d853.js"
   ]
 }
